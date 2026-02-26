@@ -53,7 +53,7 @@ public class PiDigits {
     /// <param name="m"></param>
     /// <param name="n"></param>
     /// <returns></returns>
-    private static double sum(int m, int n) {
+    public static double sum(int m, int n) {
         double sum = 0;
         int d = m;
         int power = n;
@@ -108,6 +108,10 @@ public class PiDigits {
         }
 
         return result;
+    }
+
+    public static int getDigitsPerSum() {
+        return DigitsPerSum;
     }
 
 }
